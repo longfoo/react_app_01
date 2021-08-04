@@ -15,13 +15,15 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* min-height: 100vh; */
+  display: block;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 10px 0;
+}
+
+.App-header p {
+  margin: 0;
 }
 
 .App-link {
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.black {
+  color: black;
+}
+.gray {
+  color: gray;
+}
+.pink {
+  color: pink;
+}
+.orange {
+  color: orange;
+}
+.navy {
+  color: navy;
+}
+.dodgerblue {
+  color: dodgerblue;
+}
+.deepgreen {
+  color: deepgreen;
 }
